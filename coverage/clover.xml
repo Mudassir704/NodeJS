@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1599055641020" clover="3.2.0">
-  <project timestamp="1599055641020" name="All files">
+<coverage generated="1616930952958" clover="3.2.0">
+  <project timestamp="1616930952959" name="All files">
     <metrics statements="325" coveredstatements="225" conditionals="76" coveredconditionals="22" methods="48" coveredmethods="24" elements="449" coveredelements="271" complexity="0" loc="325" ncloc="325" packages="5" files="23" classes="23"/>
-    <package name="vidly">
+    <package name="NodeJS">
       <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-      <file name="index.js" path="C:\Users\mdmud\Desktop\NodeJS\vidly\index.js">
+      <file name="index.js" path="C:\Users\mdmud\Desktop\NodeJS\index.js">
         <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -19,35 +19,35 @@
         <line num="15" count="3" type="stmt"/>
       </file>
     </package>
-    <package name="vidly.middleware">
+    <package name="NodeJS.middleware">
       <metrics statements="26" coveredstatements="25" conditionals="8" coveredconditionals="7" methods="6" coveredmethods="6"/>
-      <file name="admin.js" path="C:\Users\mdmud\Desktop\NodeJS\vidly\middleware\admin.js">
+      <file name="admin.js" path="C:\Users\mdmud\Desktop\NodeJS\middleware\admin.js">
         <metrics statements="3" coveredstatements="2" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="1" type="cond" truecount="1" falsecount="1"/>
         <line num="3" count="0" type="stmt"/>
       </file>
-      <file name="auth.js" path="C:\Users\mdmud\Desktop\NodeJS\vidly\middleware\auth.js">
+      <file name="auth.js" path="C:\Users\mdmud\Desktop\NodeJS\middleware\auth.js">
         <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
         <line num="4" count="3" type="stmt"/>
-        <line num="5" count="19" type="stmt"/>
-        <line num="6" count="19" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="17" type="stmt"/>
+        <line num="6" count="17" type="cond" truecount="2" falsecount="0"/>
         <line num="8" count="15" type="stmt"/>
         <line num="9" count="15" type="stmt"/>
         <line num="10" count="14" type="stmt"/>
         <line num="11" count="14" type="stmt"/>
         <line num="13" count="1" type="stmt"/>
       </file>
-      <file name="error.js" path="C:\Users\mdmud\Desktop\NodeJS\vidly\middleware\error.js">
+      <file name="error.js" path="C:\Users\mdmud\Desktop\NodeJS\middleware\error.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="3" count="3" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
       </file>
-      <file name="validate.js" path="C:\Users\mdmud\Desktop\NodeJS\vidly\middleware\validate.js">
+      <file name="validate.js" path="C:\Users\mdmud\Desktop\NodeJS\middleware\validate.js">
         <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="3" count="3" type="stmt"/>
         <line num="4" count="6" type="stmt"/>
@@ -55,7 +55,7 @@
         <line num="6" count="9" type="cond" truecount="2" falsecount="0"/>
         <line num="7" count="6" type="stmt"/>
       </file>
-      <file name="validateObjectId.js" path="C:\Users\mdmud\Desktop\NodeJS\vidly\middleware\validateObjectId.js">
+      <file name="validateObjectId.js" path="C:\Users\mdmud\Desktop\NodeJS\middleware\validateObjectId.js">
         <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="3" count="3" type="stmt"/>
@@ -63,9 +63,9 @@
         <line num="5" count="2" type="stmt"/>
       </file>
     </package>
-    <package name="vidly.models">
+    <package name="NodeJS.models">
       <metrics statements="53" coveredstatements="45" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="4"/>
-      <file name="Movie.js" path="C:\Users\mdmud\Desktop\NodeJS\vidly\models\Movie.js">
+      <file name="Movie.js" path="C:\Users\mdmud\Desktop\NodeJS\models\Movie.js">
         <metrics statements="9" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -77,7 +77,7 @@
         <line num="43" count="3" type="stmt"/>
         <line num="44" count="3" type="stmt"/>
       </file>
-      <file name="customer.js" path="C:\Users\mdmud\Desktop\NodeJS\vidly\models\customer.js">
+      <file name="customer.js" path="C:\Users\mdmud\Desktop\NodeJS\models\customer.js">
         <metrics statements="8" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -88,7 +88,7 @@
         <line num="35" count="3" type="stmt"/>
         <line num="36" count="3" type="stmt"/>
       </file>
-      <file name="genre.js" path="C:\Users\mdmud\Desktop\NodeJS\vidly\models\genre.js">
+      <file name="genre.js" path="C:\Users\mdmud\Desktop\NodeJS\models\genre.js">
         <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -100,7 +100,7 @@
         <line num="23" count="3" type="stmt"/>
         <line num="24" count="3" type="stmt"/>
       </file>
-      <file name="rental.js" path="C:\Users\mdmud\Desktop\NodeJS\vidly\models\rental.js">
+      <file name="rental.js" path="C:\Users\mdmud\Desktop\NodeJS\models\rental.js">
         <metrics statements="14" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -117,7 +117,7 @@
         <line num="82" count="3" type="stmt"/>
         <line num="83" count="3" type="stmt"/>
       </file>
-      <file name="user.js" path="C:\Users\mdmud\Desktop\NodeJS\vidly\models\user.js">
+      <file name="user.js" path="C:\Users\mdmud\Desktop\NodeJS\models\user.js">
         <metrics statements="13" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
         <line num="1" count="4" type="stmt"/>
         <line num="2" count="4" type="stmt"/>
@@ -134,9 +134,9 @@
         <line num="48" count="4" type="stmt"/>
       </file>
     </package>
-    <package name="vidly.routes">
+    <package name="NodeJS.routes">
       <metrics statements="188" coveredstatements="100" conditionals="64" coveredconditionals="12" methods="26" coveredmethods="7"/>
-      <file name="auth.js" path="C:\Users\mdmud\Desktop\NodeJS\vidly\routes\auth.js">
+      <file name="auth.js" path="C:\Users\mdmud\Desktop\NodeJS\routes\auth.js">
         <metrics statements="17" coveredstatements="11" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -156,7 +156,7 @@
         <line num="25" count="1" type="stmt"/>
         <line num="29" count="3" type="stmt"/>
       </file>
-      <file name="customers.js" path="C:\Users\mdmud\Desktop\NodeJS\vidly\routes\customers.js">
+      <file name="customers.js" path="C:\Users\mdmud\Desktop\NodeJS\routes\customers.js">
         <metrics statements="28" coveredstatements="10" conditionals="10" coveredconditionals="0" methods="5" coveredmethods="0"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -187,7 +187,7 @@
         <line num="49" count="0" type="stmt"/>
         <line num="53" count="3" type="stmt"/>
       </file>
-      <file name="generes.js" path="C:\Users\mdmud\Desktop\NodeJS\vidly\routes\generes.js">
+      <file name="generes.js" path="C:\Users\mdmud\Desktop\NodeJS\routes\generes.js">
         <metrics statements="30" coveredstatements="27" conditionals="10" coveredconditionals="8" methods="5" coveredmethods="4"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -220,7 +220,7 @@
         <line num="48" count="0" type="stmt"/>
         <line num="52" count="3" type="stmt"/>
       </file>
-      <file name="movies.js" path="C:\Users\mdmud\Desktop\NodeJS\vidly\routes\movies.js">
+      <file name="movies.js" path="C:\Users\mdmud\Desktop\NodeJS\routes\movies.js">
         <metrics statements="31" coveredstatements="11" conditionals="12" coveredconditionals="0" methods="5" coveredmethods="0"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -254,7 +254,7 @@
         <line num="62" count="0" type="stmt"/>
         <line num="66" count="3" type="stmt"/>
       </file>
-      <file name="rentals.js" path="C:\Users\mdmud\Desktop\NodeJS\vidly\routes\rentals.js">
+      <file name="rentals.js" path="C:\Users\mdmud\Desktop\NodeJS\routes\rentals.js">
         <metrics statements="43" coveredstatements="14" conditionals="20" coveredconditionals="0" methods="5" coveredmethods="0"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -300,7 +300,7 @@
         <line num="97" count="0" type="stmt"/>
         <line num="101" count="3" type="stmt"/>
       </file>
-      <file name="returns.js" path="C:\Users\mdmud\Desktop\NodeJS\vidly\routes\returns.js">
+      <file name="returns.js" path="C:\Users\mdmud\Desktop\NodeJS\routes\returns.js">
         <metrics statements="17" coveredstatements="17" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -320,7 +320,7 @@
         <line num="27" count="8" type="stmt"/>
         <line num="30" count="3" type="stmt"/>
       </file>
-      <file name="users.js" path="C:\Users\mdmud\Desktop\NodeJS\vidly\routes\users.js">
+      <file name="users.js" path="C:\Users\mdmud\Desktop\NodeJS\routes\users.js">
         <metrics statements="22" coveredstatements="10" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -346,9 +346,9 @@
         <line num="31" count="3" type="stmt"/>
       </file>
     </package>
-    <package name="vidly.startups">
+    <package name="NodeJS.startups">
       <metrics statements="47" coveredstatements="44" conditionals="2" coveredconditionals="1" methods="7" coveredmethods="6"/>
-      <file name="config.js" path="C:\Users\mdmud\Desktop\NodeJS\vidly\startups\config.js">
+      <file name="config.js" path="C:\Users\mdmud\Desktop\NodeJS\startups\config.js">
         <metrics statements="5" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="3" count="3" type="stmt"/>
@@ -356,7 +356,7 @@
         <line num="5" count="0" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
       </file>
-      <file name="db.js" path="C:\Users\mdmud\Desktop\NodeJS\vidly\startups\db.js">
+      <file name="db.js" path="C:\Users\mdmud\Desktop\NodeJS\startups\db.js">
         <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -370,7 +370,7 @@
         <line num="11" count="3" type="stmt"/>
         <line num="12" count="3" type="stmt"/>
       </file>
-      <file name="logging.js" path="C:\Users\mdmud\Desktop\NodeJS\vidly\startups\logging.js">
+      <file name="logging.js" path="C:\Users\mdmud\Desktop\NodeJS\startups\logging.js">
         <metrics statements="9" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -382,7 +382,7 @@
         <line num="16" count="3" type="stmt"/>
         <line num="17" count="3" type="stmt"/>
       </file>
-      <file name="routes.js" path="C:\Users\mdmud\Desktop\NodeJS\vidly\startups\routes.js">
+      <file name="routes.js" path="C:\Users\mdmud\Desktop\NodeJS\startups\routes.js">
         <metrics statements="19" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -404,7 +404,7 @@
         <line num="19" count="3" type="stmt"/>
         <line num="20" count="3" type="stmt"/>
       </file>
-      <file name="validation.js" path="C:\Users\mdmud\Desktop\NodeJS\vidly\startups\validation.js">
+      <file name="validation.js" path="C:\Users\mdmud\Desktop\NodeJS\startups\validation.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="3" count="3" type="stmt"/>
